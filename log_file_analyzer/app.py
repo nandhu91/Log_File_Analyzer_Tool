@@ -1,79 +1,40 @@
 from flask import Flask, render_template, request, redirect
 import os
-import logging
 import matplotlib.pyplot as plt
 
-from config import UPLOAD_FOLDER, ALLOWED_EXTENSIONS
-from logger_config import setup_logger
-from log_parser import parse_logs
-from analyzer import analyze_logs
+from analyzer_utils import parse_logs, analyze_logs
 
-# -----------------------------
-# Flask App Configuration
-# -----------------------------
 app = Flask(__name__)
+
+UPLOAD_FOLDER = "uploads"
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
-# Windows-safe upload folder creation
+# Create uploads folder if not exists (Windows-safe)
 if not os.path.isdir(UPLOAD_FOLDER):
     os.mkdir(UPLOAD_FOLDER)
 
-setup_logger()
-logging.info("Log File Analyzer application started")
-
-# -----------------------------
-# Utility Function
-# -----------------------------
-def allowed_file(filename):
-    return (
-        "." in filename and
-        filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
-    )
-
-# -----------------------------
-# Routes
-# -----------------------------
+# ---------------- UPLOAD PAGE ----------------
 @app.route("/", methods=["GET", "POST"])
 def index():
-    """
-    Upload page for log/txt file
-    """
     if request.method == "POST":
         file = request.files.get("logfile")
-
-        if not file or file.filename == "":
-            return "No file selected"
-
-        if not allowed_file(file.filename):
-            return "Only .log or .txt files are allowed"
-
-        filepath = os.path.join(app.config["UPLOAD_FOLDER"], file.filename)
-        file.save(filepath)
-
-        logging.info(f"File uploaded: {file.filename}")
-        return redirect(f"/report?file={file.filename}")
+        if file:
+            filepath = os.path.join(app.config["UPLOAD_FOLDER"], file.filename)
+            file.save(filepath)
+            return redirect(f"/report?file={file.filename}")
 
     return render_template("index.html")
 
-
+# ---------------- REPORT PAGE ----------------
 @app.route("/report")
 def report():
-    """
-    Analyze uploaded log file and show report
-    """
     filename = request.args.get("file")
     filepath = os.path.join(app.config["UPLOAD_FOLDER"], filename)
 
-    if not os.path.exists(filepath):
-        return "File not found"
-
-    # Parse logs
     logs, total_lines, corrupted = parse_logs(filepath)
-
-    # Analyze logs
     result = analyze_logs(logs)
 
-    # Generate error distribution chart
+    # Error code chart
     plt.figure()
     result["error_counts"].plot(kind="bar")
     plt.xlabel("HTTP Error Code")
@@ -83,21 +44,23 @@ def report():
     plt.savefig("static/error_chart.png")
     plt.close()
 
-    logging.info("Log analysis completed successfully")
+    # IP address chart
+    plt.figure()
+    result["top_ips"].plot(kind="bar")
+    plt.xlabel("IP Address")
+    plt.ylabel("Error Count")
+    plt.title("Top IP Addresses Generating Errors")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig("static/ip_error_chart.png")
+    plt.close()
 
     return render_template(
         "report.html",
         total_lines=total_lines,
         corrupted=corrupted,
-        total_valid_requests=result["total_valid_requests"],
-        total_errors=result["total_errors"],
-        error_rate=result["error_rate"],
-        error_counts=result["error_counts"],
-        top_ips=result["top_ips"]
+        **result
     )
 
-# -----------------------------
-# Run Application
-# -----------------------------
 if __name__ == "__main__":
     app.run(debug=True)

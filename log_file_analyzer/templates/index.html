@@ -2,84 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Log File Analyzer</title>
+    <title>Log File Analyzer Tool</title>
 
     <style>
+        /* ===== PAGE BASE ===== */
         body {
             margin: 0;
-            height: 100vh;
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #f4f6f9;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #eef3fb, #f7f9fc);
         }
 
-        .container {
-            background-color: #ffffff;
-            padding: 40px 50px;
-            border-radius: 10px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        /* ===== MAIN CONTAINER ===== */
+        .page {
+            width: 100%;
+            max-width: 900px;
+            padding: 40px;
+        }
+
+        /* ===== TITLE SECTION ===== */
+        .page-title {
             text-align: center;
-            width: 420px;
+            margin-bottom: 40px;
         }
 
-        .title-box {
-            background-color: #0d6efd;
-            color: white;
-            padding: 18px;
-            border-radius: 8px;
-            font-size: 26px;
-            font-weight: bold;
+        .page-title h1 {
+            display: inline-block;
+            padding: 20px 60px;
+            background-color: #eaf2ff;   /* light professional blue */
+            color: #1f4fd8;
+            border-radius: 12px;
+            font-size: 32px;
+            font-weight: 600;
+            border: 1px solid #c7dbff;
+            box-shadow: 0px 6px 14px rgba(0,0,0,0.08);
+        }
+
+        /* ===== CARD ===== */
+        .card {
+            background-color: #ffffff;
+            border-radius: 16px;
+            padding: 50px;
+            box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.12);
+            text-align: center;
+        }
+
+        /* ===== FORM ===== */
+        input[type="file"] {
+            font-size: 16px;
             margin-bottom: 30px;
         }
 
-        input[type="file"] {
-            margin: 20px 0;
-            font-size: 15px;
-        }
-
-        .analyze-btn {
-            background-color: #0d6efd;
-            color: white;
+        button {
+            background-color: #1f6fff;
+            color: #ffffff;
             border: none;
-            padding: 12px 30px;
-            font-size: 16px;
-            border-radius: 6px;
+            padding: 14px 40px;
+            font-size: 17px;
+            border-radius: 8px;
             cursor: pointer;
-            transition: background-color 0.3s ease;
         }
 
-        .analyze-btn:hover {
-            background-color: #0b5ed7;
+        button:hover {
+            background-color: #1558cc;
         }
 
-        .message {
-            margin-top: 15px;
-            color: red;
+        /* ===== FOOTER TEXT ===== */
+        .hint {
+            margin-top: 30px;
             font-size: 14px;
+            color: #666;
         }
     </style>
 </head>
+
 <body>
 
-<div class="container">
+<div class="page">
 
-    <div class="title-box">
-        Log File Analyzer
+    <!-- TITLE -->
+    <div class="page-title">
+        <h1>Log File Analyzer Tool</h1>
     </div>
 
-    <form method="POST" enctype="multipart/form-data">
-        <input type="file" name="logfile" required>
-        <br><br>
-        <button type="submit" class="analyze-btn">
-            Analyze Log File
-        </button>
-    </form>
+    <!-- MAIN CARD -->
+    <div class="card">
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="logfile" required>
+            <br>
+            <button type="submit">Analyze Log File</button>
+        </form>
 
-    {% if message %}
-        <div class="message">{{ message }}</div>
-    {% endif %}
+        <div class="hint">
+            Supported formats: <strong>.log</strong>, <strong>.txt</strong>
+        </div>
+    </div>
 
 </div>
 

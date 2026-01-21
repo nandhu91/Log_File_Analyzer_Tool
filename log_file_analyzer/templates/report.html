@@ -4,158 +4,105 @@
     <title>Log Analysis Report</title>
     <style>
         body {
-            font-family: "Segoe UI", Arial, sans-serif;
+            font-family: Arial, sans-serif;
             background-color: #f4f6f8;
-            margin: 0;
             padding: 30px;
         }
-
-        h1 {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
         .container {
             max-width: 1000px;
             margin: auto;
         }
-
-        .summary {
+        .cards {
             display: flex;
             justify-content: space-between;
             margin-bottom: 30px;
         }
-
         .card {
-            background-color: #ffffff;
+            background: white;
             padding: 20px;
             width: 30%;
             text-align: center;
             border-radius: 10px;
             box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
         }
-
-        .card h2 {
-            margin-bottom: 10px;
-            font-size: 18px;
-            color: #555;
-        }
-
-        .card p {
-            font-size: 24px;
-            font-weight: bold;
-            margin: 0;
-        }
-
-        .section {
-            background-color: #ffffff;
-            padding: 25px;
-            border-radius: 10px;
-            margin-bottom: 30px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-        }
-
-        .section h2 {
-            margin-bottom: 20px;
-        }
-
         table {
             width: 100%;
             border-collapse: collapse;
+            background: white;
+            margin-bottom: 30px;
         }
-
         th, td {
+            border: 1px solid #ddd;
             padding: 10px;
-            border-bottom: 1px solid #ddd;
             text-align: center;
         }
-
         th {
             background-color: #f0f0f0;
         }
-
-        .chart {
-            text-align: center;
-        }
-
-        .chart img {
+        img {
+            display: block;
+            margin: auto;
             max-width: 90%;
-        }
-
-        .back {
-            text-align: center;
-            margin-top: 20px;
         }
     </style>
 </head>
 
 <body>
 
-<h1>Log Analysis Report</h1>
-
 <div class="container">
 
-    <!-- SUMMARY CARDS -->
-    <div class="summary">
-        <div class="card">
-            <h2>Total Requests</h2>
-            <p>{{ total_valid_requests }}</p>
-        </div>
+<h1 style="text-align:center;">Log Analysis Report</h1>
 
-        <div class="card">
-            <h2>Total Errors</h2>
-            <p>{{ total_errors }}</p>
-        </div>
-
-        <div class="card">
-            <h2>Corrupted Lines</h2>
-            <p>{{ corrupted }}</p>
-        </div>
+<div class="cards">
+    <div class="card">
+        <h3>Total Requests</h3>
+        <p>{{ total_valid_requests }}</p>
     </div>
-
-    <!-- ERROR CODE TABLE -->
-    <div class="section">
-        <h2>Error Code Frequency</h2>
-        <table>
-            <tr>
-                <th>Error Code</th>
-                <th>Count</th>
-            </tr>
-            {% for code, count in error_counts.items() %}
-            <tr>
-                <td>{{ code }}</td>
-                <td>{{ count }}</td>
-            </tr>
-            {% endfor %}
-        </table>
+    <div class="card">
+        <h3>Total Errors</h3>
+        <p>{{ total_errors }}</p>
     </div>
-
-    <!-- TOP IPs TABLE -->
-    <div class="section">
-        <h2>Top 5 IPs Generating Errors</h2>
-        <table>
-            <tr>
-                <th>IP Address</th>
-                <th>Error Count</th>
-            </tr>
-            {% for ip, count in top_ips.items() %}
-            <tr>
-                <td>{{ ip }}</td>
-                <td>{{ count }}</td>
-            </tr>
-            {% endfor %}
-        </table>
+    <div class="card">
+        <h3>Corrupted Lines</h3>
+        <p>{{ corrupted }}</p>
     </div>
+</div>
 
-    <!-- CHART -->
-    <div class="section chart">
-        <h2>Error Distribution Chart</h2>
-        <img src="/static/error_chart.png" alt="Error Distribution Chart">
-    </div>
+<h2>Error Code Frequency</h2>
+<table>
+<tr><th>Error Code</th><th>Count</th></tr>
+{% for code, count in error_counts.items() %}
+<tr><td>{{ code }}</td><td>{{ count }}</td></tr>
+{% endfor %}
+</table>
 
-    <div class="back">
-        <a href="/">Analyze Another File</a>
-    </div>
+<h2>Top 5 IPs Generating Errors</h2>
+<table>
+<tr><th>IP Address</th><th>Error Count</th></tr>
+{% for ip, count in top_ips.items() %}
+<tr><td>{{ ip }}</td><td>{{ count }}</td></tr>
+{% endfor %}
+</table>
+
+<h2 style="text-align:center;">Error Code Distribution</h2>
+<img src="/static/error_chart.png">
+
+<h2 style="text-align:center;">IP Address Error Distribution</h2>
+<img src="/static/ip_error_chart.png">
+
+<!-- ✅ CHOOSE ANOTHER FILE -->
+<div style="text-align:center; margin-top: 30px;">
+    <a href="/" style="
+        display: inline-block;
+        padding: 10px 25px;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 15px;">
+        Choose Another File
+    </a>
+</div>
 
 </div>
 

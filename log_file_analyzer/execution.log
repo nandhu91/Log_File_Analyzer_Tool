@@ -257,3 +257,40 @@
 2026-01-21 20:03:26,064 | INFO | Log analysis completed successfully
 2026-01-21 20:03:26,071 | INFO | 127.0.0.1 - - [21/Jan/2026 20:03:26] "GET /report?file=server.log HTTP/1.1" 200 -
 2026-01-21 20:03:26,168 | INFO | 127.0.0.1 - - [21/Jan/2026 20:03:26] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 20:06:36,089 | INFO |  * Detected change in 'C:\\Users\\banot\\OneDrive\\Desktop\\log_file_analyzer\\log_file_analyzer\\analyzer.py', reloading
+2026-01-21 23:05:36,757 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 23:05:36,757 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-21 23:05:36,773 - INFO -  * Restarting with watchdog (windowsapi)
+2026-01-21 23:05:37,752 - WARNING -  * Debugger is active!
+2026-01-21 23:05:37,753 - INFO -  * Debugger PIN: 671-407-941
+2026-01-21 23:05:59,513 - INFO - 127.0.0.1 - - [21/Jan/2026 23:05:59] "GET / HTTP/1.1" 200 -
+2026-01-21 23:05:59,625 - INFO - 127.0.0.1 - - [21/Jan/2026 23:05:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-21 23:06:20,095 - INFO - Uploaded file: server.log
+2026-01-21 23:06:20,097 - INFO - 127.0.0.1 - - [21/Jan/2026 23:06:20] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 23:06:21,898 - INFO - 127.0.0.1 - - [21/Jan/2026 23:06:21] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 23:06:22,055 - INFO - 127.0.0.1 - - [21/Jan/2026 23:06:22] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 23:06:22,056 - INFO - 127.0.0.1 - - [21/Jan/2026 23:06:22] "GET /static/ip_error_chart.png HTTP/1.1" 200 -
+2026-01-21 23:06:52,886 - INFO - 127.0.0.1 - - [21/Jan/2026 23:06:52] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 23:06:52,912 - INFO - 127.0.0.1 - - [21/Jan/2026 23:06:52] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 23:06:52,916 - INFO - 127.0.0.1 - - [21/Jan/2026 23:06:52] "GET /static/ip_error_chart.png HTTP/1.1" 200 -
+2026-01-21 23:09:40,175 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 23:09:40,175 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-21 23:09:40,188 - INFO -  * Restarting with watchdog (windowsapi)
+2026-01-21 23:09:41,198 - WARNING -  * Debugger is active!
+2026-01-21 23:09:41,201 - INFO -  * Debugger PIN: 671-407-941
+2026-01-21 23:09:45,002 - INFO - 127.0.0.1 - - [21/Jan/2026 23:09:45] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 23:09:45,156 - INFO - 127.0.0.1 - - [21/Jan/2026 23:09:45] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 23:09:45,157 - INFO - 127.0.0.1 - - [21/Jan/2026 23:09:45] "GET /static/ip_error_chart.png HTTP/1.1" 200 -
+2026-01-21 23:09:49,308 - INFO - 127.0.0.1 - - [21/Jan/2026 23:09:49] "[33mGET /upload HTTP/1.1[0m" 404 -
+2026-01-21 23:09:54,931 - INFO - 127.0.0.1 - - [21/Jan/2026 23:09:54] "[33mGET /upload HTTP/1.1[0m" 404 -
+2026-01-21 23:09:57,327 - INFO - 127.0.0.1 - - [21/Jan/2026 23:09:57] "[33mGET /upload HTTP/1.1[0m" 404 -
+2026-01-21 23:10:36,261 - INFO - 127.0.0.1 - - [21/Jan/2026 23:10:36] "GET / HTTP/1.1" 200 -
+2026-01-21 23:10:45,121 - INFO - Uploaded file: server.log
+2026-01-21 23:10:45,122 - INFO - 127.0.0.1 - - [21/Jan/2026 23:10:45] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 23:10:45,836 - INFO - 127.0.0.1 - - [21/Jan/2026 23:10:45] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 23:10:45,877 - INFO - 127.0.0.1 - - [21/Jan/2026 23:10:45] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 23:10:45,878 - INFO - 127.0.0.1 - - [21/Jan/2026 23:10:45] "GET /static/ip_error_chart.png HTTP/1.1" 200 -
+2026-01-21 23:10:53,864 - INFO - 127.0.0.1 - - [21/Jan/2026 23:10:53] "[33mGET /upload HTTP/1.1[0m" 404 -
+2026-01-21 23:15:12,993 - INFO -  * Detected change in 'C:\\Users\\banot\\OneDrive\\Desktop\\HCL TRAINING\\log_file_analyzer_tool\\log_file_analyzer\\app.py', reloading
