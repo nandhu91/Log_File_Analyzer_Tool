@@ -1,0 +1,259 @@
+2026-01-21 18:29:10,541 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 18:29:10,542 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-21 18:29:10,562 - INFO -  * Restarting with watchdog (windowsapi)
+2026-01-21 18:29:11,595 - WARNING -  * Debugger is active!
+2026-01-21 18:29:11,603 - INFO -  * Debugger PIN: 671-407-941
+2026-01-21 18:29:21,999 - INFO - Application started
+2026-01-21 18:29:22,020 - WARNING - Corrupted entry skipped: INVALID LOG ENTRY
+2026-01-21 18:29:22,021 - WARNING - Corrupted entry skipped: 2026-01-20 ???? GET
+2026-01-21 18:29:22,603 - INFO - Log analysis completed successfully
+2026-01-21 18:29:22,635 - INFO - 127.0.0.1 - - [21/Jan/2026 18:29:22] "GET / HTTP/1.1" 200 -
+2026-01-21 18:29:22,737 - INFO - 127.0.0.1 - - [21/Jan/2026 18:29:22] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 18:29:22,945 - INFO - 127.0.0.1 - - [21/Jan/2026 18:29:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-21 18:31:30,457 - INFO -  * Detected change in 'C:\\Users\\banot\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\globals.py', reloading
+2026-01-21 18:40:58,918 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 18:40:58,919 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-21 18:40:58,930 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 18:40:59,828 | WARNING |  * Debugger is active!
+2026-01-21 18:40:59,829 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 18:41:13,955 | INFO | 127.0.0.1 - - [21/Jan/2026 18:41:13] "GET / HTTP/1.1" 200 -
+2026-01-21 18:41:25,941 | INFO | 127.0.0.1 - - [21/Jan/2026 18:41:25] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 18:41:25,948 | WARNING | Skipped invalid line: INVALID LOG ENTRY
+2026-01-21 18:41:25,948 | WARNING | Skipped invalid line: 2026-01-20 ???? GET
+2026-01-21 18:41:26,334 | INFO | 127.0.0.1 - - [21/Jan/2026 18:41:26] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 18:41:26,461 | INFO | 127.0.0.1 - - [21/Jan/2026 18:41:26] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 18:41:32,739 | INFO | 127.0.0.1 - - [21/Jan/2026 18:41:32] "GET / HTTP/1.1" 200 -
+2026-01-21 18:41:40,872 | INFO | 127.0.0.1 - - [21/Jan/2026 18:41:40] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 18:41:40,880 | WARNING | Skipped invalid line: INVALID LOG ENTRY
+2026-01-21 18:41:40,880 | WARNING | Skipped invalid line: 2026-01-20 ???? GET
+2026-01-21 18:41:41,189 | INFO | 127.0.0.1 - - [21/Jan/2026 18:41:41] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 18:41:41,227 | INFO | 127.0.0.1 - - [21/Jan/2026 18:41:41] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 18:47:00,547 | INFO |  * Detected change in 'C:\\Users\\banot\\OneDrive\\Desktop\\log_file_analyzer\\log_file_analyzer\\analyzer.py', reloading
+2026-01-21 18:48:29,357 | INFO | Log File Analyzer application started
+2026-01-21 18:49:24,118 | INFO | Log File Analyzer application started
+2026-01-21 18:49:24,153 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 18:49:24,153 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-21 18:49:24,164 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 18:49:25,090 | INFO | Log File Analyzer application started
+2026-01-21 18:49:25,113 | WARNING |  * Debugger is active!
+2026-01-21 18:49:25,114 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 18:49:33,350 | WARNING | Corrupted entry skipped: INVALID LOG ENTRY
+2026-01-21 18:49:33,351 | WARNING | Corrupted entry skipped: 2026-01-20 ???? GET
+2026-01-21 18:49:33,894 | INFO | Log analysis completed successfully
+2026-01-21 18:49:33,901 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:33] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 18:49:34,040 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:34] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 18:49:40,625 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-21 18:49:40,672 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-21 18:49:40,686 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-21 18:49:40,721 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:40] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=q4xSk7Q67Ty9jJjTAX1r HTTP/1.1" 200 -
+2026-01-21 18:49:40,735 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-21 18:49:43,658 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-21 18:49:43,675 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-21 18:49:43,680 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-21 18:49:43,694 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=q4xSk7Q67Ty9jJjTAX1r HTTP/1.1[0m" 304 -
+2026-01-21 18:49:43,706 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-21 18:49:45,793 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-21 18:49:45,814 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-21 18:49:45,820 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-21 18:49:45,832 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=q4xSk7Q67Ty9jJjTAX1r HTTP/1.1[0m" 304 -
+2026-01-21 18:49:45,844 | INFO | 127.0.0.1 - - [21/Jan/2026 18:49:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-21 18:51:23,241 | INFO | Log File Analyzer application started
+2026-01-21 18:51:23,264 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 18:51:23,265 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-21 18:51:23,273 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 18:51:24,172 | INFO | Log File Analyzer application started
+2026-01-21 18:51:24,183 | WARNING |  * Debugger is active!
+2026-01-21 18:51:24,185 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 18:51:32,527 | INFO | 127.0.0.1 - - [21/Jan/2026 18:51:32] "GET / HTTP/1.1" 200 -
+2026-01-21 18:51:44,873 | INFO | File uploaded: server.log
+2026-01-21 18:51:44,875 | INFO | 127.0.0.1 - - [21/Jan/2026 18:51:44] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 18:51:44,887 | WARNING | Corrupted entry skipped: INVALID LOG ENTRY
+2026-01-21 18:51:44,888 | WARNING | Corrupted entry skipped: 2026-01-20 ???? GET
+2026-01-21 18:51:45,360 | INFO | Log analysis completed successfully
+2026-01-21 18:51:45,365 | INFO | 127.0.0.1 - - [21/Jan/2026 18:51:45] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 18:51:45,474 | INFO | 127.0.0.1 - - [21/Jan/2026 18:51:45] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 18:52:11,693 | WARNING | Corrupted entry skipped: INVALID LOG ENTRY
+2026-01-21 18:52:11,694 | WARNING | Corrupted entry skipped: 2026-01-20 ???? GET
+2026-01-21 18:52:12,081 | INFO | Log analysis completed successfully
+2026-01-21 18:52:12,083 | INFO | 127.0.0.1 - - [21/Jan/2026 18:52:12] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 18:52:12,110 | INFO | 127.0.0.1 - - [21/Jan/2026 18:52:12] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 18:52:15,686 | INFO | 127.0.0.1 - - [21/Jan/2026 18:52:15] "GET / HTTP/1.1" 200 -
+2026-01-21 18:55:52,893 | INFO | Log File Analyzer application started
+2026-01-21 18:55:52,923 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 18:55:52,923 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-21 18:55:52,932 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 18:55:53,998 | INFO | Log File Analyzer application started
+2026-01-21 18:55:54,015 | WARNING |  * Debugger is active!
+2026-01-21 18:55:54,017 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 18:56:00,955 | INFO | 127.0.0.1 - - [21/Jan/2026 18:56:00] "GET / HTTP/1.1" 200 -
+2026-01-21 18:56:22,749 | INFO | File uploaded: server.log
+2026-01-21 18:56:22,750 | INFO | 127.0.0.1 - - [21/Jan/2026 18:56:22] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 18:56:22,757 | WARNING | Corrupted entry skipped: INVALID LOG ENTRY
+2026-01-21 18:56:22,758 | WARNING | Corrupted entry skipped: 2026-01-20 ???? GET
+2026-01-21 18:56:23,141 | INFO | Log analysis completed successfully
+2026-01-21 18:56:23,146 | INFO | 127.0.0.1 - - [21/Jan/2026 18:56:23] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 18:56:23,260 | INFO | 127.0.0.1 - - [21/Jan/2026 18:56:23] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 18:59:05,701 | INFO | Log File Analyzer application started
+2026-01-21 18:59:05,732 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 18:59:05,732 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-21 18:59:05,745 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 18:59:06,724 | INFO | Log File Analyzer application started
+2026-01-21 18:59:06,737 | WARNING |  * Debugger is active!
+2026-01-21 18:59:06,739 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 18:59:13,921 | WARNING | Corrupted entry skipped: INVALID LOG ENTRY
+2026-01-21 18:59:13,922 | WARNING | Corrupted entry skipped: 2026-01-20 ???? GET
+2026-01-21 18:59:14,333 | INFO | Log analysis completed successfully
+2026-01-21 18:59:14,367 | INFO | 127.0.0.1 - - [21/Jan/2026 18:59:14] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 18:59:14,513 | INFO | 127.0.0.1 - - [21/Jan/2026 18:59:14] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 18:59:28,652 | WARNING | Corrupted entry skipped: INVALID LOG ENTRY
+2026-01-21 18:59:28,654 | WARNING | Corrupted entry skipped: 2026-01-20 ???? GET
+2026-01-21 18:59:29,008 | INFO | Log analysis completed successfully
+2026-01-21 18:59:29,009 | INFO | 127.0.0.1 - - [21/Jan/2026 18:59:29] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 18:59:29,034 | INFO | 127.0.0.1 - - [21/Jan/2026 18:59:29] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 18:59:32,212 | INFO | 127.0.0.1 - - [21/Jan/2026 18:59:32] "GET / HTTP/1.1" 200 -
+2026-01-21 18:59:53,533 | INFO | File uploaded: server.log
+2026-01-21 18:59:53,534 | INFO | 127.0.0.1 - - [21/Jan/2026 18:59:53] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 18:59:53,542 | WARNING | Corrupted entry skipped: INVALID LOG ENTRY
+2026-01-21 18:59:53,543 | WARNING | Corrupted entry skipped: 2026-01-20 ???? GET
+2026-01-21 18:59:53,956 | INFO | Log analysis completed successfully
+2026-01-21 18:59:53,957 | INFO | 127.0.0.1 - - [21/Jan/2026 18:59:53] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 18:59:54,002 | INFO | 127.0.0.1 - - [21/Jan/2026 18:59:54] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 19:05:20,052 | INFO | Log File Analyzer application started
+2026-01-21 19:05:20,085 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 19:05:20,086 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-21 19:05:20,097 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 19:05:21,006 | INFO | Log File Analyzer application started
+2026-01-21 19:05:21,026 | WARNING |  * Debugger is active!
+2026-01-21 19:05:21,027 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 19:05:26,833 | INFO | 127.0.0.1 - - [21/Jan/2026 19:05:26] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:05:32,568 | INFO | 127.0.0.1 - - [21/Jan/2026 19:05:32] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:05:33,584 | INFO | 127.0.0.1 - - [21/Jan/2026 19:05:33] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:05:33,805 | INFO | 127.0.0.1 - - [21/Jan/2026 19:05:33] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:05:34,542 | INFO | 127.0.0.1 - - [21/Jan/2026 19:05:34] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:05:34,755 | INFO | 127.0.0.1 - - [21/Jan/2026 19:05:34] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:05:35,419 | INFO | 127.0.0.1 - - [21/Jan/2026 19:05:35] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:05:35,644 | INFO | 127.0.0.1 - - [21/Jan/2026 19:05:35] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:05:44,652 | INFO | 127.0.0.1 - - [21/Jan/2026 19:05:44] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:06:57,949 | INFO |  * Detected change in 'C:\\Users\\banot\\OneDrive\\Desktop\\log_file_analyzer\\log_file_analyzer\\generate_logs.py', reloading
+2026-01-21 19:06:58,117 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 19:06:59,215 | INFO | Log File Analyzer application started
+2026-01-21 19:06:59,230 | WARNING |  * Debugger is active!
+2026-01-21 19:06:59,232 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 19:06:59,693 | INFO |  * Detected change in 'C:\\Users\\banot\\OneDrive\\Desktop\\log_file_analyzer\\log_file_analyzer\\generate_logs.py', reloading
+2026-01-21 19:06:59,871 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 19:07:00,988 | INFO | Log File Analyzer application started
+2026-01-21 19:07:01,012 | WARNING |  * Debugger is active!
+2026-01-21 19:07:01,015 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 19:08:05,642 | INFO | Log File Analyzer application started
+2026-01-21 19:08:05,673 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 19:08:05,674 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-21 19:08:05,684 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 19:08:06,617 | INFO | Log File Analyzer application started
+2026-01-21 19:08:06,633 | WARNING |  * Debugger is active!
+2026-01-21 19:08:06,634 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 19:08:15,112 | INFO | 127.0.0.1 - - [21/Jan/2026 19:08:15] "GET / HTTP/1.1" 200 -
+2026-01-21 19:08:32,217 | INFO | File uploaded: server.log
+2026-01-21 19:08:32,218 | INFO | 127.0.0.1 - - [21/Jan/2026 19:08:32] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 19:08:32,866 | INFO | Log analysis completed successfully
+2026-01-21 19:08:32,874 | INFO | 127.0.0.1 - - [21/Jan/2026 19:08:32] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:08:32,982 | INFO | 127.0.0.1 - - [21/Jan/2026 19:08:32] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 19:09:03,331 | INFO | 127.0.0.1 - - [21/Jan/2026 19:09:03] "GET / HTTP/1.1" 200 -
+2026-01-21 19:09:22,158 | INFO | File uploaded: server.log
+2026-01-21 19:09:22,159 | INFO | 127.0.0.1 - - [21/Jan/2026 19:09:22] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 19:09:22,678 | INFO | Log analysis completed successfully
+2026-01-21 19:09:22,684 | INFO | 127.0.0.1 - - [21/Jan/2026 19:09:22] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:09:22,724 | INFO | 127.0.0.1 - - [21/Jan/2026 19:09:22] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 19:15:39,863 | INFO | 127.0.0.1 - - [21/Jan/2026 19:15:39] "GET / HTTP/1.1" 200 -
+2026-01-21 19:18:37,073 | INFO | Log File Analyzer application started
+2026-01-21 19:18:37,110 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 19:18:37,110 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-21 19:18:37,125 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 19:18:38,029 | INFO | Log File Analyzer application started
+2026-01-21 19:18:38,040 | WARNING |  * Debugger is active!
+2026-01-21 19:18:38,042 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 19:18:43,035 | INFO | 127.0.0.1 - - [21/Jan/2026 19:18:43] "GET / HTTP/1.1" 200 -
+2026-01-21 19:19:01,856 | INFO | File uploaded: server.log
+2026-01-21 19:19:01,857 | INFO | 127.0.0.1 - - [21/Jan/2026 19:19:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 19:19:02,509 | INFO | Log analysis completed successfully
+2026-01-21 19:19:02,517 | INFO | 127.0.0.1 - - [21/Jan/2026 19:19:02] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:19:02,604 | INFO | 127.0.0.1 - - [21/Jan/2026 19:19:02] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 19:20:38,364 | INFO | 127.0.0.1 - - [21/Jan/2026 19:20:38] "GET / HTTP/1.1" 200 -
+2026-01-21 19:23:43,370 | INFO |  * Detected change in 'C:\\Users\\banot\\OneDrive\\Desktop\\log_file_analyzer\\log_file_analyzer\\app.py', reloading
+2026-01-21 19:23:43,371 | INFO |  * Detected change in 'C:\\Users\\banot\\OneDrive\\Desktop\\log_file_analyzer\\log_file_analyzer\\app.py', reloading
+2026-01-21 19:32:47,617 | INFO | Log File Analyzer application started
+2026-01-21 19:32:47,646 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 19:32:47,646 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-21 19:32:47,663 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 19:32:48,600 | INFO | Log File Analyzer application started
+2026-01-21 19:32:48,612 | WARNING |  * Debugger is active!
+2026-01-21 19:32:48,613 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 19:33:07,062 | INFO | 127.0.0.1 - - [21/Jan/2026 19:33:07] "GET / HTTP/1.1" 200 -
+2026-01-21 19:33:15,646 | INFO | File uploaded: server.log
+2026-01-21 19:33:15,649 | INFO | 127.0.0.1 - - [21/Jan/2026 19:33:15] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 19:33:16,341 | INFO | Log analysis completed successfully
+2026-01-21 19:33:16,349 | INFO | 127.0.0.1 - - [21/Jan/2026 19:33:16] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:33:16,476 | INFO | 127.0.0.1 - - [21/Jan/2026 19:33:16] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 19:35:03,175 | INFO | 127.0.0.1 - - [21/Jan/2026 19:35:03] "GET / HTTP/1.1" 200 -
+2026-01-21 19:35:13,290 | INFO | File uploaded: server.log
+2026-01-21 19:35:13,291 | INFO | 127.0.0.1 - - [21/Jan/2026 19:35:13] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 19:35:13,774 | INFO | Log analysis completed successfully
+2026-01-21 19:35:13,779 | INFO | 127.0.0.1 - - [21/Jan/2026 19:35:13] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:35:13,823 | INFO | 127.0.0.1 - - [21/Jan/2026 19:35:13] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 19:42:12,805 | INFO |  * Detected change in 'C:\\Users\\banot\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\globals.py', reloading
+2026-01-21 19:54:07,861 | INFO | Log File Analyzer application started
+2026-01-21 19:54:07,895 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 19:54:07,896 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-21 19:54:07,908 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 19:54:08,999 | INFO | Log File Analyzer application started
+2026-01-21 19:54:09,014 | WARNING |  * Debugger is active!
+2026-01-21 19:54:09,017 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 19:54:22,869 | INFO | Log analysis completed successfully
+2026-01-21 19:54:22,888 | INFO | 127.0.0.1 - - [21/Jan/2026 19:54:22] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:54:23,064 | INFO | 127.0.0.1 - - [21/Jan/2026 19:54:23] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 19:54:26,512 | INFO | 127.0.0.1 - - [21/Jan/2026 19:54:26] "GET / HTTP/1.1" 200 -
+2026-01-21 19:54:41,656 | INFO | File uploaded: server.log
+2026-01-21 19:54:41,658 | INFO | 127.0.0.1 - - [21/Jan/2026 19:54:41] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 19:54:42,360 | INFO | Log analysis completed successfully
+2026-01-21 19:54:42,367 | INFO | 127.0.0.1 - - [21/Jan/2026 19:54:42] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 19:54:42,423 | INFO | 127.0.0.1 - - [21/Jan/2026 19:54:42] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 19:56:33,415 | INFO | 127.0.0.1 - - [21/Jan/2026 19:56:33] "GET / HTTP/1.1" 200 -
+2026-01-21 19:59:36,942 | INFO | Log File Analyzer application started
+2026-01-21 19:59:36,972 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 19:59:36,972 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-21 19:59:36,982 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 19:59:38,011 | INFO | Log File Analyzer application started
+2026-01-21 19:59:38,031 | WARNING |  * Debugger is active!
+2026-01-21 19:59:38,033 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 19:59:44,380 | INFO | 127.0.0.1 - - [21/Jan/2026 19:59:44] "GET / HTTP/1.1" 200 -
+2026-01-21 20:00:03,771 | INFO | File uploaded: server.log
+2026-01-21 20:00:03,774 | INFO | 127.0.0.1 - - [21/Jan/2026 20:00:03] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 20:00:04,868 | INFO | Log analysis completed successfully
+2026-01-21 20:00:04,886 | INFO | 127.0.0.1 - - [21/Jan/2026 20:00:04] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 20:00:05,075 | INFO | 127.0.0.1 - - [21/Jan/2026 20:00:05] "GET /static/error_chart.png HTTP/1.1" 200 -
+2026-01-21 20:00:11,882 | INFO | 127.0.0.1 - - [21/Jan/2026 20:00:11] "GET / HTTP/1.1" 200 -
+2026-01-21 20:03:11,987 | INFO | Log File Analyzer application started
+2026-01-21 20:03:12,018 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-21 20:03:12,018 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-21 20:03:12,028 | INFO |  * Restarting with watchdog (windowsapi)
+2026-01-21 20:03:12,812 | INFO | Log File Analyzer application started
+2026-01-21 20:03:12,827 | WARNING |  * Debugger is active!
+2026-01-21 20:03:12,828 | INFO |  * Debugger PIN: 671-407-941
+2026-01-21 20:03:19,006 | INFO | 127.0.0.1 - - [21/Jan/2026 20:03:19] "GET / HTTP/1.1" 200 -
+2026-01-21 20:03:25,603 | INFO | File uploaded: server.log
+2026-01-21 20:03:25,604 | INFO | 127.0.0.1 - - [21/Jan/2026 20:03:25] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-21 20:03:26,064 | INFO | Log analysis completed successfully
+2026-01-21 20:03:26,071 | INFO | 127.0.0.1 - - [21/Jan/2026 20:03:26] "GET /report?file=server.log HTTP/1.1" 200 -
+2026-01-21 20:03:26,168 | INFO | 127.0.0.1 - - [21/Jan/2026 20:03:26] "GET /static/error_chart.png HTTP/1.1" 200 -
