@@ -35,6 +35,7 @@ Data Processing: Pandas, Regular Expressions
 Visualization: Matplotlib
 
 Project Structure
+
 log_file_analyzer/
 │
 ├── app.py                  
