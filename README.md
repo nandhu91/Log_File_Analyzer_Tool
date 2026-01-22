@@ -1,7 +1,10 @@
-Log File Analyzer Tool (Flask)
+Log File Analyzer Tool for IT Operations
 
-A Python Flask–based web application that analyzes large server log files and generates actionable insights for IT Operations.
-It efficiently parses logs, handles corrupted entries, identifies HTTP errors, highlights top IP addresses causing issues, and visualizes results using charts.
+Overview
+The Log File Analyzer Tool is a Python-based Flask web application designed to analyze large-scale server log files used in IT Operations.
+It processes log files efficiently, handles corrupted entries safely, identifies HTTP error trends, detects top IP addresses generating errors, and visualizes insights through charts.
+
+This project demonstrates real-world log analysis automation using Python and Flask.
 
  Features
 
@@ -50,6 +53,14 @@ log_file_analyzer/
 └── tests/
     └── test_cases.py
 
+Log File Format
+
+The application expects log entries in the following format:
+Timestamp IP_Address Request_Method Status_Code
+Example:
+2026-01-21 10:01:15 192.168.1.10 GET 404
+2026-01-21 10:02:20 192.168.1.25 POST 500
+
 Install Dependencies
 pip install -r requirements.txt
 pip install flask pandas matplotlib
@@ -68,22 +79,38 @@ Output
 Summary Cards
 
 Total Requests
-
 Total Errors
-
 Corrupted Lines
 
 Tables
 
 Error Code Frequency
-
 Top 5 IP Addresses
 
 Graphs
 
 HTTP Error Code Distribution
-
 IP Address Error Distribution
+
+Learning Outcomes
+
+This project demonstrates:
+Efficient parsing of large files in Python
+Regex-based real-world data validation
+Data aggregation using Pandas
+Visual analytics using Matplotlib
+Flask-based web application development
+Robust exception handling
+Writing modular, testable Python code
+Unit testing backend logic
+
+Use Cases
+
+IT Operations monitoring
+Server error analysis
+Log analytics automation
+Academic projects and evaluations
+Python & Flask learning projects
 
 
 
