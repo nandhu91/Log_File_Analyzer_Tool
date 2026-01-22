@@ -1,6 +1,6 @@
 ## Log File Analyzer Tool for IT Operations
 
-# #Overview
+ ## Overview
 The Log File Analyzer Tool is a Python-based Flask web application designed to analyze large-scale server log files used in IT Operations.
 It processes log files efficiently, handles corrupted entries safely, identifies HTTP error trends, detects top IP addresses generating errors, and visualizes insights through charts.
 
